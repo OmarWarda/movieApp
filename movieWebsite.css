@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap");
+
+body {
+  margin: 0;
+  /* Primary color */
+  background-color: #22254b;
+}
+* {
+  box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #373b69;
+  overflow: hidden;
+}
+li {
+  float: left;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+
+  padding: 0px 16px;
+  margin: 10px;
+
+  padding: 10px 16px;
+  margin: 0px 10px;
+}
+
+li a:hover {
+  background-color: #22254b;
+}
+/* ///////////////////////////////////////// */
+#main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.movie {
+  width: 200px;
+  color: aliceblue;
+  margin: 1%;
+  border-radius: 20px;
+  padding: 2px;
+  background-color: #373b69;
+}
+
+.movie:hover {
+  background-color: #22254b;
+  border: #373b69 4px solid;
+}
+.movie img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+h4 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 1px;
+  /* font-family: "Roboto", sans-serif; */
+}
+
+.movie a {
+  text-decoration: none;
+  color: aliceblue;
+  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+}
+
+/* ////////////////////////////////////////Details Page */
+ul a {
+  color: aliceblue;
+  text-decoration: none;
+  display: inline-block;
+  display: flex;
+  /* margin-top: 16px; */
+}
+
+.container {
+  display: flex;
+  /* justify-content: center; */
+}
+
+.container img {
+  width: 300px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.container h3 {
+  color: aliceblue;
+  margin: 20px;
+  height: fit-content;
+  letter-spacing: 2px;
+  font-weight: bold
+  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
+}
+
+.container h2 {
+  color: aliceblue;
+  margin: 20px;
+  height: fit-content;
+  letter-spacing: 2px;
+  font-weight: bold
+  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
+}
+
+.container p {
+  width: 400px;
+  color: aliceblue;
+  letter-spacing: 2px;
+  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
+}
+
+.search{
+  background-color: transparent;
+  border: solid #22254b;
+  padding:0.5rem 1rem;
+  border-radius: 40px;
+  font-size: 1rem;
+  color: white;
+  float: right;
+  margin-right: 25px;
+  /* font-family: inherit; */
+}
+
+.search:focus{
+  outline:0;
+  /* background-color: var(--primary-color); */
+}
+
+.search::placeholder{
+  color: white;
+}
+
+.searchBtn{
+  float: right;
+}
+
+/* 
+#overview{
+  /* position:absolute;
+  /* left:0;
+  right:0;
+  bottom:0; 
+  background-color: #22254b;
+  padding: 1rem;
+  max-height: 100%;
+  transform:translateY(101%);
+  transition:transform 0.3s ease-in;
+  display: none;
+  width: max-content;
+}
+
+.movie:hover #overview{
+  transform:translateY(0);
+  display: inline-block;
+} 
+*/
+
