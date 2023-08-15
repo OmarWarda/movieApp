@@ -27,7 +27,7 @@ The app displays a list of movies along with their details and provides an optio
 
 To run the Movie App locally, follow these steps:
 
-1. Clone the repository: git clone https://github.com/OmarWarda/Movie-App.git
+1. Clone the repository: git clone https://github.com/OmarWarda/movieApp.git
 
 ## Usage
 
